@@ -1,0 +1,64 @@
+body{
+    font-family: fantasy;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+header nav ul li{
+    margin-left: 20px;
+}
+header nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+#hero{
+    font-size: 2.5em;
+    margin: 0;
+}
+#hero p{
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+#her0 .btm{
+    background: #333;
+    counter-reset: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+section{
+    padding: 60px 20px;
+    text-align: center;
+}
+#services , #projects{
+    background: #f4f4f4;
+}
+.service, .project{
+    display: inline-block;
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background: #fff;
+}
+footer{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+}
