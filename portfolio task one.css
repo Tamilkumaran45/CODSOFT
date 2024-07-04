@@ -1,0 +1,50 @@
+body{
+    font-family: cursive;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: #333;
+    color: rgb(172, 255, 255);
+    padding: 20px;
+    text-align: center;
+}
+header h1{
+    margin: 0;
+}
+section{
+    padding: 20px;
+    margin: 20px;
+}
+#about img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+#skills ul{
+    list-style: none;
+    padding: 0;
+}
+#skills li{
+    background: blanchedalmond;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.project{
+    margin-bottom: 20px;
+}
+.prpject image{
+    width: 40%;
+    height: auto;
+}
+footer{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1-px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
